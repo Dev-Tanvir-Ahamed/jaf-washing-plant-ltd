@@ -19,7 +19,7 @@ export default function CTASection() {
           className="text-white text-2xl sm:text-3xl md:text-[2rem] font-bold mb-8"
           style={{ lineHeight: "50px" }}
         >
-          PLEASE DON'T HESITATE TO CONTACT US REGARDING ANY QUESTIONS AND
+          PLEASE DON&apos;T HESITATE TO CONTACT US REGARDING ANY QUESTIONS AND
           INQUIRIES YOU MAY HAVE.
         </p>
 

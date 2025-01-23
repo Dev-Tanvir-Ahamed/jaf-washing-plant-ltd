@@ -44,8 +44,8 @@ export default function Home() {
         {/* Description */}
         <p className="text-white text-lg md:text-xl max-w-3xl mb-12 leading-relaxed">
           Experience the cutting-edge excellence of Al-Madina Washing Plant
-          Ltd., Bangladesh's premier modern washing plant, delivering superior
-          quality with state-of-the-art machinery
+          Ltd., Bangladesh&apos;s premier modern washing plant, delivering
+          superior quality with state-of-the-art machinery
         </p>
 
         {/* Buttons */}
