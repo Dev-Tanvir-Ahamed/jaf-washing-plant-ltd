@@ -1,0 +1,69 @@
+import Image from "next/image";
+import anwaraBegum from "../../../public/assets/images/management/ANWARA-BEGUM.jpg";
+import mehediHasan from "../../../public/assets/images/management/mehedi-hasan.jpg";
+export default function Management() {
+  const profiles = [
+    {
+      name: "MEHEDI HASAN",
+      title: "MANAGING DIRECTOR, AL-MADINA WASHING PLANT LTD.",
+      image: mehediHasan,
+      description: [
+        "At Al-Madina Washing Plant Ltd., our commitment to excellence is unwavering. We strive to provide you with the highest quality services, backed by our dedicated team, state-of-the-art machinery, and advanced techniques. With a relentless focus on customer satisfaction, we aim to exceed your expectations and build lasting partnerships.",
+        "Our success is built on the foundation of a skilled and proficient workforce, who are driven by their passion for delivering impeccable results. We invest in their growth and well-being, ensuring that they possess the knowledge and expertise to meet your unique requirements.",
+        "As an organization, we are continuously exploring new avenues for innovation and improvement. By partnering with us, you gain access to our ongoing pursuit of excellence",
+      ],
+    },
+    {
+      name: "ANWARA BEGUM",
+      title: "DIRECTOR, AL-MADINA WASHING PLANT LTD.",
+      image: anwaraBegum,
+      description: [
+        "At Al-Madina Washing Plant Ltd., our commitment to excellence and customer satisfaction is paramount. With a relentless focus on innovation and quality, we strive to deliver exceptional results that exceed your expectations. Our team of skilled professionals works tirelessly to ensure that every project is executed with precision and attention to detail.",
+        "As the Director, I am personally invested in fostering a culture of collaboration, integrity, and continuous improvement. Together with our talented workforce, we are dedicated to providing you with outstanding services and building long-term partnerships based on trust and mutual success.",
+        "I extend my deepest gratitude to our valued clients and partners for their continued support and trust in our capabilities. It is through your unwavering confidence that we are motivated to push boundaries and set new industry standards.",
+      ],
+    },
+  ];
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-12 space-y-16 relative">
+      <div>
+        <p className="md:text-[120px] xl:text-[168px] text-gray-100 absolute top-0 left-10 font-bold">
+          Management
+        </p>
+      </div>
+      <div className="pt-10">
+        {profiles.map((profile, index) => (
+          <div
+            key={index}
+            className="grid md:grid-cols-[300px,1fr] gap-8 items-start space-y-10"
+          >
+            <div className="relative top-7">
+              <Image
+                src={profile.image || "/placeholder.svg"}
+                alt={profile.name}
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="space-y-4">
+              <h2 className="text-4xl font-bold text-green-600">
+                {profile.name}
+              </h2>
+              <h3 className="text-xl text-gray-700">{profile.title}</h3>
+              <div className="py-3">
+                <div className="border border-b-1 border-gray-300 w-16"></div>
+              </div>
+              <div className="space-y-4 text-gray-600">
+                {profile.description.map((paragraph, idx) => (
+                  <p key={idx} className="leading-relaxed">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
