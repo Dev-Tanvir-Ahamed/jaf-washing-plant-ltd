@@ -11,7 +11,7 @@ const cardData = [
     icon: manufacturing,
     title: "State-of-the-Art Facility",
     description:
-      "At Al-Madina Washing Plant Ltd., we boast a state-of-the-art facility equipped with cutting-edge machinery. Our commitment to staying at the forefront of technology ensures that we deliver unmatched quality and efficiency in our washing processes.",
+      "At JAF Washing Plant Ltd., we boast a state-of-the-art facility equipped with cutting-edge machinery. Our commitment to staying at the forefront of technology ensures that we deliver unmatched quality and efficiency in our washing processes.",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const cardData = [
     icon: teamManagement,
     title: "Safe and Secure Workplace",
     description:
-      "At Al-Madina Washing Plant Ltd., we place a strong emphasis on providing a safe and secure workplace for our employees. We strictly adhere to industry standards and regulations to ensure the well-being and safety of our workforce.",
+      "At JAF Washing Plant Ltd., we place a strong emphasis on providing a safe and secure workplace for our employees. We strictly adhere to industry standards and regulations to ensure the well-being and safety of our workforce.",
   },
   {
     id: 6,
@@ -60,8 +60,7 @@ export default function WhyChooseUs() {
             Why Choose Us
           </h2>
           <p className="text-gray-600 text-lg">
-            Modern. Efficient. Al-Madina Washing Plant Ltd. - Your washing
-            solution
+            Modern. Efficient. JAF Washing Plant Ltd. - Your washing solution
           </p>
         </div>
 

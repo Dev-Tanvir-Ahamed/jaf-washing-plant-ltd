@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <h2 className="text-2xl font-semibold mb-4">About Us</h2>
             <p className="text-gray-200 mb-6">
-              Al-Madina Washing Plant Ltd. is one of the most modern washing
-              plant in Bangladesh, established in January, 2013
+              JAF Washing Plant Ltd. is one of the most modern washing plant in
+              Bangladesh, established in January, 2013
             </p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-gray-300 transition-colors">

@@ -22,7 +22,7 @@ export default function Home() {
         <div className="mb-6">
           <Image
             src={logo}
-            alt="Al-Madina Logo"
+            alt="JAF Logo"
             width={120}
             height={120}
             className="mx-auto"
@@ -32,7 +32,7 @@ export default function Home() {
         {/* Company Name */}
         <div className="bg-white rounded-full px-8 py-3 mb-8">
           <h1 className="text-2xl md:text-4xl font-bold text-green-600">
-            J A F Washing Plant Ltd.
+            JAF Washing Plant Ltd.
           </h1>
         </div>
 
