@@ -32,7 +32,7 @@ export default function Home() {
         {/* Company Name */}
         <div className="bg-white rounded-full px-8 py-3 mb-8">
           <h1 className="text-2xl md:text-4xl font-bold text-green-600">
-            Al-Madina Washing Plant Ltd.
+            J A F Washing Plant Ltd.
           </h1>
         </div>
 
@@ -43,9 +43,9 @@ export default function Home() {
 
         {/* Description */}
         <p className="text-white text-lg md:text-xl max-w-3xl mb-12 leading-relaxed">
-          Experience the cutting-edge excellence of Al-Madina Washing Plant
-          Ltd., Bangladesh&apos;s premier modern washing plant, delivering
-          superior quality with state-of-the-art machinery
+          Experience the cutting-edge excellence of J A F Washing Plant Ltd.,
+          Bangladesh&apos;s premier modern washing plant, delivering superior
+          quality with state-of-the-art machinery
         </p>
 
         {/* Buttons */}
