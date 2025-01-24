@@ -90,7 +90,7 @@ const ClientData = () => {
       alt: "GOTS",
     },
     {
-      src: "/assets/images/ourClients/image22.png",
+      src: "/assets/images/ourClients/image22.jpeg",
       alt: "GOTS",
     },
     {

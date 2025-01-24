@@ -5,12 +5,12 @@ const Clients = () => {
     <>
       {" "}
       <div
-        className="h-[600px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center"
+        className="h-[1000px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
         style={{
           background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
         }}
       >
-        <p className="font-bold text-[40px] text-white space-y-5 mb-5">
+        <p className="font-bold text-[32px] text-white space-y-5 mb-5">
           Our Valued Clients
         </p>
         <div className="max-w-4xl text-white font-light text-[18px] space-y-3">

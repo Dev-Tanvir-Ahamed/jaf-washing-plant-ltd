@@ -1,6 +1,7 @@
 import CTASection from "@/components/HomePage/CTASection";
 import Footer from "@/shared/Footer";
-import Navbar from "@/shared/TryNav";
+
+import Navbar from "@/shared/Navbar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Rubik } from "next/font/google";
 import "./globals.css";
