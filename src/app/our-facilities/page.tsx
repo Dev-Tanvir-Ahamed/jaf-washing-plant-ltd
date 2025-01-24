@@ -4,7 +4,12 @@ import WetProcess from "@/components/facilities/WetProcess";
 const Faculties = () => {
   return (
     <div>
-      <div className="bg-primary_color h-[400px] flex justify-center items-center flex-col mb-5 text-center">
+      <div
+        className="h-[600px]  md:h-[400px] flex justify-center items-center flex-col mb-5 text-center"
+        style={{
+          background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
+        }}
+      >
         <p className="font-bold text-5xl text-white space-y-5 mb-5">
           Our Washing Facilities
         </p>

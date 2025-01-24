@@ -13,7 +13,7 @@ const navItems = [
     name: "ABOUT US",
     href: "/about-us",
     subItems: [
-      { name: "About Us", href: "/about" },
+      { name: "About Us", href: "/about-us" },
       { name: "Management", href: "/about/management" },
       { name: "Factory Profile", href: "/about/factory-profile" },
       { name: "Compliance", href: "/about/compliance" },

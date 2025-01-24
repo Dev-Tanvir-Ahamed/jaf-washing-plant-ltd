@@ -19,7 +19,7 @@ export default function DryProcess() {
       {/* part - 1 */}
       <div className="grid md:grid-cols-2 gap-8 items-start">
         {/* Left side - Process List */}
-        <div>
+        <div className="order-2 md:order-1">
           <h2 className="text-3xl font-bold text-green-600 mb-6">
             Dry Process
           </h2>
@@ -51,7 +51,7 @@ export default function DryProcess() {
         </div>
 
         {/* Right side - Image */}
-        <div className="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden">
+        <div className="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
           <Image
             src={dryProcess1}
             alt="Dry Process Facility"

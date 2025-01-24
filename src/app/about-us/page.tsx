@@ -2,7 +2,6 @@ import AboutCarousel from "@/components/AboutUs/AboutCarousel";
 import CommitmentSection from "@/components/AboutUs/CommitmentCustomers";
 import CommitmentFellow from "@/components/AboutUs/CommitmentFellow";
 import MissionVisionSection from "@/components/AboutUs/MissionVisionSection";
-import CTASection from "@/components/HomePage/CTASection";
 
 const AboutUs = () => {
   return (
@@ -14,7 +13,6 @@ const AboutUs = () => {
       <MissionVisionSection />
       <CommitmentSection />
       <CommitmentFellow />
-      <CTASection />
     </div>
   );
 };
