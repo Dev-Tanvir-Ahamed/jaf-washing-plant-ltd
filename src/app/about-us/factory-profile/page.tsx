@@ -88,7 +88,7 @@ const Page = () => {
               Business Information
             </p>
             <p className="font-light text-[18px]">
-              Established in January 2013, Al-Madina Washing Plant Ltd. boasts a
+              Established in January 2013, JAF Washing Plant Ltd. boasts a
               single, efficient washing unit under the ownership of Mehedi
               Hasan. Since our inception, we have dedicated ourselves to
               delivering top-notch washing services and have grown to become a

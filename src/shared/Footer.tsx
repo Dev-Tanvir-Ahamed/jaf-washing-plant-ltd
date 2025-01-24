@@ -29,7 +29,7 @@ export default function Footer() {
               <div>
                 <li>
                   <Link
-                    href="#"
+                    href="/about-us/management"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Management
@@ -37,7 +37,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/about-us/factory-profile"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Factory Profile
@@ -45,7 +45,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/about-us/list-of-machineries"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     List of Machineries
@@ -53,7 +53,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/our-facilities"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Our Facilities
@@ -63,7 +63,7 @@ export default function Footer() {
               <div>
                 <li>
                   <Link
-                    href="#"
+                    href="/sustainability"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Sustainability
@@ -71,7 +71,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/compliance"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Compliance
@@ -79,7 +79,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/product-gallery"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Gallery
@@ -87,7 +87,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/contact-us"
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     Contact Us
@@ -106,7 +106,7 @@ export default function Footer() {
                   <MapPin size={20} />
                 </div>
                 <p className="text-gray-200">
-                  185, Singair Road, Hemayetpur, Savar, Dhaka-1340, Bangladesh.
+                  Holding No: 8/2/A, Road No: 21, Shyampur, Dhaka-1204
                 </p>
               </div>
               <div className="flex items-center gap-2">

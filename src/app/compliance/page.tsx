@@ -15,12 +15,12 @@ const Compliance = () => {
         </p>
         <div className="max-w-4xl text-white font-light text-[18px]">
           <p className="mb-3">
-            At Al-Madina Washing Plant Ltd. (AWPL), we take great pride in
-            upholding high standards of compliance and achieving various
-            certifications that validate our commitment to social and
-            environmental responsibility. These certifications are a testament
-            to our dedication to sustainable and ethical practices throughout
-            our operations.
+            JAF Washing Plant Ltd. (JAFWPL), we take great pride in upholding
+            high standards of compliance and achieving various certifications
+            that validate our commitment to social and environmental
+            responsibility. These certifications are a testament to our
+            dedication to sustainable and ethical practices throughout our
+            operations.
           </p>
         </div>
       </div>

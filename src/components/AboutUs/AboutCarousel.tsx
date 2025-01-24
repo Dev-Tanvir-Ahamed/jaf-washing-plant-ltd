@@ -71,11 +71,11 @@ const AboutCarousel = () => {
     <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-2 my-10 py-10">
       <div>
         <p className="text-4xl text-primary_color mb-5 mx-3 font-bold">
-          j A F Washing Plant Ltd.
+          JAF Washing Plant Ltd.
         </p>
         <div className="text-[#34343c] space-y-3 text-[20px] font-light mx-3">
           <p>
-            J A F Washing Plant Ltd. is one of the most modern washing plants in
+            JAF Washing Plant Ltd. is one of the most modern washing plants in
             Bangladesh, established in January 2013. It is situated at 185,
             Singair Road, Hemayetpur, Savar, Dhaka. Mehedi Hasan is our
             honorable Managing Director, and Anwara Begum is our Director.

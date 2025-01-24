@@ -1,6 +1,6 @@
 export default function StatsSection() {
   return (
-    <div className="h-[300px] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4">
+    <div className="h-[300px] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 text-center mb-10">
       {/* grid - 1 */}
       <div className="bg-[#03BF34] flex justify-center items-center flex-col p-4">
         <h1 className="text-4xl font-bold text-white mb-5">2013</h1>

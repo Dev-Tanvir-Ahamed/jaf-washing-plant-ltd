@@ -1,5 +1,4 @@
 import { CertificateCarousoul } from "@/components/HomePage/CertificateCarousoul";
-import CTASection from "@/components/HomePage/CTASection";
 import HeroSection from "@/components/HomePage/HeroSection";
 import Management from "@/components/HomePage/Management";
 import { OurClients } from "@/components/HomePage/OurClients";
@@ -17,7 +16,6 @@ export default function Home() {
       <CertificateCarousoul />
       <Stats />
       <OurClients />
-      <CTASection />
     </>
   );
 }

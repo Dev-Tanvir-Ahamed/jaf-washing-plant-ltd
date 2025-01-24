@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/assets/images/logo1.png";
+import logo from "../../../public/assets/images/logo.jpg";
 export default function Home() {
   return (
     <main className="min-h-screen relative">
@@ -51,7 +51,7 @@ export default function Home() {
         {/* Buttons */}
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <Link
-            href="/about"
+            href="/about-us"
             className="bg-gray-100 hover:bg-gray-200 text-green-600 px-8 py-3 rounded-md font-semibold text-lg transition-colors duration-200"
           >
             About Us →

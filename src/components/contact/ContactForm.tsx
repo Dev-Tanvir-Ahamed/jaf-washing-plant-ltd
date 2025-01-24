@@ -21,9 +21,7 @@ export default function ContactForm() {
                   OFFICE ADDRESS
                 </h3>
                 <p className="text-gray-600">
-                  185, Singair Road, Hemayetpur,
-                  <br />
-                  Savar, Dhaka-1340, Bangladesh.
+                  Holding No: 8/2/A, Road No: 21, Shyampur, Dhaka-1204.
                 </p>
               </div>
             </div>

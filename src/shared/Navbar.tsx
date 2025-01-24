@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import logo from "../../public/assets/images/logo1.png";
+import logo from "../../public/assets/images/logo-removebg-preview.png";
 
 const navItems = [
   { name: "HOME", href: "/" },
@@ -39,6 +39,7 @@ export default function Navbar() {
   const handleDropdownOpen = (itemName: string) => {
     setOpenDropdown((prev) => (prev === itemName ? null : itemName));
   };
+
   const handleSubItemClick = () => {
     setOpenDropdown(null); // Close the dropdown when a submenu item is clicked
   };
@@ -58,7 +59,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <div className="hidden lg:ml-6 lg:flex items-center lg:space-x-4">
             {navItems.map((item) => (
               <div key={item.name} className="relative group">
                 {item.subItems ? (
@@ -84,7 +85,7 @@ export default function Navbar() {
                             className={`block px-4 py-2 text-sm transition duration-300 ${
                               pathname === subItem.href
                                 ? "text-primary_color"
-                                : "text-gray-700 hover:bg-gray-100 hover:text-green-600"
+                                : "text-gray-700 hover:text-white hover:bg-primary_color"
                             }`}
                           >
                             {subItem.name}
@@ -110,7 +111,9 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="-mr-2 flex items-center sm:hidden">
+          <div className="flex items-center lg:hidden">
+            {" "}
+            {/* Show on sm and md */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500"
@@ -156,7 +159,9 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="sm:hidden">
+        <div className="lg:hidden">
+          {" "}
+          {/* Ensure mobile menu is hidden on md and larger */}
           <div className="pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
               <div key={item.name}>

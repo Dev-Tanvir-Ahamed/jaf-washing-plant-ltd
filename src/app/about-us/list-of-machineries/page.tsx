@@ -5,7 +5,7 @@ const ListOfMachinaries = () => {
   return (
     <>
       <div
-        className="h-[1000px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
+        className="h-[900px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
         style={{
           background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
         }}
@@ -15,13 +15,13 @@ const ListOfMachinaries = () => {
         </p>
         <div className="max-w-4xl text-white font-light text-[18px] space-y-3">
           <p className="mb-3">
-            At Al-Madina Washing Plant Ltd., we take pride in our
-            state-of-the-art machinery that enables us to deliver top-quality
-            washing services. This page provides you with an insight into the
-            advanced equipment and technologies we employ to meet our
-            client&apos;s diverse needs. With a focus on efficiency, precision,
-            and innovation, our machinery lineup plays a crucial role in
-            ensuring optimal results and customer satisfaction.
+            JAF Washing Plant Ltd., we take pride in our state-of-the-art
+            machinery that enables us to deliver top-quality washing services.
+            This page provides you with an insight into the advanced equipment
+            and technologies we employ to meet our client&apos;s diverse needs.
+            With a focus on efficiency, precision, and innovation, our machinery
+            lineup plays a crucial role in ensuring optimal results and customer
+            satisfaction.
           </p>
           <p>
             Explore our comprehensive list of machineries below to discover the

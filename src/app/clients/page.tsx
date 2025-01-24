@@ -15,9 +15,9 @@ const Clients = () => {
         </p>
         <div className="max-w-4xl text-white font-light text-[18px] space-y-3">
           <p className="mb-3">
-            At Al-Madina Washing Plant Ltd., our clients are at the heart of
-            everything we do. We are privileged to partner with a diverse range
-            of esteemed organizations from various industries, both locally and
+            JAF Washing Plant Ltd., our clients are at the heart of everything
+            we do. We are privileged to partner with a diverse range of esteemed
+            organizations from various industries, both locally and
             internationally. It is their trust and confidence in our services
             that drive us to continuously strive for excellence.
           </p>

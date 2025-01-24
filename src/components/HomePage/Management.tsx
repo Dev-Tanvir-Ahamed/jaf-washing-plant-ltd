@@ -4,7 +4,7 @@ import mehediHasan from "../../../public/assets/images/management/mehedi-hasan.j
 export default function Management() {
   const profiles = [
     {
-      name: "MEHEDI HASAN",
+      name: "MD. SIR JOHIRUL ISLAM BABU",
       title: "MANAGING DIRECTOR, JAF WASHING PLANT LTD.",
       image: mehediHasan,
       description: [

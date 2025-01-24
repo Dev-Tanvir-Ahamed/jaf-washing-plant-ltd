@@ -72,7 +72,10 @@ export function CertificateCarousoul() {
       >
         <CarouselContent className="flex gap-4 mb-5">
           {images.map((image, index) => (
-            <CarouselItem key={index} className="basis-1/4">
+            <CarouselItem
+              key={index}
+              className=" basis-1/2 md:basis-1/3 xl:basis-1/5"
+            >
               <div className="p-2">
                 <Card className="shadow-lg">
                   <CardContent className="flex items-center justify-center p-4">
