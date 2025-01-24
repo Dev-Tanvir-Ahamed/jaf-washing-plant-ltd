@@ -46,7 +46,7 @@ export default function ContactForm() {
                 <h3 className="font-semibold text-gray-700 mb-2">
                   EMAIL ADDRESS
                 </h3>
-                <p className="text-gray-600">info@almadinawashing.com</p>
+                <p className="text-gray-600">info@jafwashing.com</p>
               </div>
             </div>
           </div>
