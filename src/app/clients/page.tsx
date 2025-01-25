@@ -1,19 +1,33 @@
+"use client";
 import ClientData from "@/components/clients/ClientData";
+import { motion } from "framer-motion";
 
 const Clients = () => {
   return (
     <>
-      {" "}
       <div
         className="h-[1000px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
         style={{
           background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
         }}
       >
-        <p className="font-bold text-[32px] text-white space-y-5 mb-5">
+        <motion.p
+          className="font-bold text-[32px] text-white space-y-5 mb-5"
+          initial={{ opacity: 0, y: 100 }} // Start from below and transparent
+          whileInView={{ opacity: 1, y: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           Our Valued Clients
-        </p>
-        <div className="max-w-4xl text-white font-light text-[18px] space-y-3">
+        </motion.p>
+
+        <motion.div
+          className="max-w-4xl text-white font-light text-[18px] space-y-3"
+          initial={{ opacity: 0, y: 100 }} // Start from below and transparent
+          whileInView={{ opacity: 1, y: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <p className="mb-3">
             JAF Washing Plant Ltd., our clients are at the heart of everything
             we do. We are privileged to partner with a diverse range of esteemed
@@ -36,7 +50,7 @@ const Clients = () => {
             success is our success, and we remain dedicated to delivering
             excellence and driving your business forward.
           </p>
-        </div>
+        </motion.div>
       </div>
       <ClientData />
     </>

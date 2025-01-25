@@ -1,8 +1,20 @@
+"use client";
+import { motion, useInView } from "framer-motion";
 import Link from "next/link";
+import { useRef } from "react";
 
 export default function WhoWeAre() {
+  const ref = useRef(null); // Ref for the section
+  const isInView = useInView(ref, { once: true }); // Trigger animation when in view
+
   return (
-    <section className="max-w-5xl mx-auto px-4 py-16 text-center">
+    <motion.section
+      ref={ref}
+      className="max-w-5xl mx-auto px-4 py-16 text-center"
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <h2 className="text-4xl md:text-5xl font-bold text-green-600 mb-8">
         Who we are?
       </h2>
@@ -26,6 +38,6 @@ export default function WhoWeAre() {
       >
         Read More →
       </Link>
-    </section>
+    </motion.section>
   );
 }

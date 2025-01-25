@@ -1,4 +1,6 @@
-// import washSelection from "../../../public/assets/images/aboutUs/Wash-Section-bg.jpg"
+"use client";
+import { motion } from "framer-motion";
+
 export default function CommitmentSection() {
   return (
     <div className="md:h-[600px] h-[700px] relative">
@@ -14,8 +16,15 @@ export default function CommitmentSection() {
       >
         <div className="absolute inset-0 bg-black/70"></div>
       </div>
-      {/* content */}
-      <div className="relative z-20 w-full flex flex-col h-full justify-center space-y-5 xl:pl-20 px-5">
+
+      {/* Content with animation */}
+      <motion.div
+        className="relative z-20 w-full flex flex-col h-full justify-center space-y-5 xl:pl-20 px-5"
+        initial={{ opacity: 0, y: 100 }} // Initial state (content is hidden and positioned below)
+        whileInView={{ opacity: 1, y: 0 }} // When in view, opacity goes to 1 and moves to original position
+        viewport={{ once: true }} // Trigger animation only once
+        transition={{ duration: 1.5, ease: "easeOut" }} // Smooth animation with increased duration
+      >
         <p className="text-4xl text-primary_color font-normal">
           Commitment to Customers
         </p>
@@ -28,7 +37,7 @@ export default function CommitmentSection() {
           strong focus on delivering supreme quality supported by innovative
           systems.
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 }

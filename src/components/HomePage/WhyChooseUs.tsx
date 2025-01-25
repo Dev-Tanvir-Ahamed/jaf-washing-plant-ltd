@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import manufacturing from "../../../public/assets/images/chooseUsIcon/manufacturing.png";
 import production from "../../../public/assets/images/chooseUsIcon/production.png";
@@ -5,6 +7,7 @@ import saveTheWorld from "../../../public/assets/images/chooseUsIcon/save-the-wo
 import solution from "../../../public/assets/images/chooseUsIcon/solution.png";
 import teamManagement from "../../../public/assets/images/chooseUsIcon/team-management.png";
 import training from "../../../public/assets/images/chooseUsIcon/training.png";
+
 const cardData = [
   {
     id: 1,
@@ -66,10 +69,28 @@ export default function WhyChooseUs() {
 
         {/* Cards Grid */}
         <div className="grid md:grid-cols-3 gap-6">
-          {cardData.map((card) => (
-            <div
+          {cardData.map((card, index) => (
+            <motion.div
               key={card.id}
               className="bg-white p-8 rounded-lg shadow-lg text-center group hover:bg-green-600 transition-all duration-300"
+              initial={{
+                opacity: 0,
+                y: 50,
+                scale: 0.8,
+                rotate: -10,
+              }}
+              whileInView={{
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                rotate: 0,
+              }} // More dynamic animations with scale and rotation
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.7,
+                ease: "easeOut",
+                delay: index * 0.1, // Staggered delay for each card
+              }}
             >
               <div className="flex justify-center mb-6">
                 <Image
@@ -87,7 +108,7 @@ export default function WhyChooseUs() {
               <span className="hidden group-hover:inline-block text-white font-medium">
                 More about us
               </span>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

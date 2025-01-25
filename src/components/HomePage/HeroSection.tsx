@@ -1,6 +1,9 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/assets/images/logo.jpg";
+
 export default function Home() {
   return (
     <main className="min-h-screen relative">
@@ -19,7 +22,12 @@ export default function Home() {
       {/* Content Overlay */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 py-20">
         {/* Logo */}
-        <div className="mb-6">
+        <motion.div
+          className="mb-6"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
           <Image
             src={logo}
             alt="JAF Logo"
@@ -27,29 +35,54 @@ export default function Home() {
             height={120}
             className="mx-auto"
           />
-        </div>
+        </motion.div>
 
         {/* Company Name */}
-        <div className="bg-white rounded-full px-8 py-3 mb-8">
+        <motion.div
+          className="bg-white rounded-full px-8 py-3 mb-8"
+          initial={{ x: "-100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", stiffness: 50, damping: 10 }}
+        >
           <h1 className="text-2xl md:text-4xl font-bold text-green-600">
             JAF Washing Plant Ltd.
           </h1>
-        </div>
+        </motion.div>
 
         {/* Main Heading */}
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 max-w-4xl">
+        <motion.h2
+          className="text-3xl md:text-5xl font-bold text-white mb-6 max-w-4xl"
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 50,
+            damping: 10,
+            delay: 0.2,
+          }}
+        >
           100% EXPORT ORIENTED GARMENTS WASHING PROJECT
-        </h2>
+        </motion.h2>
 
         {/* Description */}
-        <p className="text-white text-lg md:text-xl max-w-3xl mb-12 leading-relaxed">
+        <motion.p
+          className="text-white text-lg md:text-xl max-w-3xl mb-12 leading-relaxed"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
           Experience the cutting-edge excellence of J A F Washing Plant Ltd.,
           Bangladesh&apos;s premier modern washing plant, delivering superior
           quality with state-of-the-art machinery
-        </p>
+        </motion.p>
 
         {/* Buttons */}
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
+        <motion.div
+          className="flex flex-col md:flex-row gap-4 justify-center"
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        >
           <Link
             href="/about-us"
             className="bg-gray-100 hover:bg-gray-200 text-green-600 px-8 py-3 rounded-md font-semibold text-lg transition-colors duration-200"
@@ -62,7 +95,7 @@ export default function Home() {
           >
             Clients →
           </Link>
-        </div>
+        </motion.div>
       </div>
     </main>
   );

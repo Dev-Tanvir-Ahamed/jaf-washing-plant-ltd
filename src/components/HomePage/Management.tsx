@@ -1,6 +1,9 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import anwaraBegum from "../../../public/assets/images/management/ANWARA-BEGUM.jpg";
 import mehediHasan from "../../../public/assets/images/management/mehedi-hasan.jpg";
+
 export default function Management() {
   const profiles = [
     {
@@ -38,14 +41,33 @@ export default function Management() {
             key={index}
             className="grid md:grid-cols-[300px,1fr] gap-8 items-start space-y-10"
           >
-            <div className="relative top-7">
+            <motion.div
+              className="relative top-7"
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.7,
+                ease: "easeOut",
+              }}
+            >
               <Image
                 src={profile.image || "/placeholder.svg"}
                 alt={profile.name}
                 className="w-full rounded-lg shadow-lg"
               />
-            </div>
-            <div className="space-y-4">
+            </motion.div>
+            <motion.div
+              className="space-y-4"
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.7,
+                ease: "easeOut",
+                delay: 0.2, // Delay for content to come in slightly after image
+              }}
+            >
               <h2 className="text-4xl font-bold text-green-600">
                 {profile.name}
               </h2>
@@ -60,7 +82,7 @@ export default function Management() {
                   </p>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

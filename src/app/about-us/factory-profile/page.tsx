@@ -6,11 +6,13 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import logo from "../../../../public/assets/images/logo.jpg";
+import logo from "../../../../public/assets/images/logo-removebg-preview.png";
+
 const Page = () => {
   // Array of images
   const images = [
@@ -80,9 +82,17 @@ const Page = () => {
       {/* grid content -1 */}
       <div className="bg-[#F9F9F9]">
         <div className="grid grid-cols-1 place-items-center md:grid-cols-2 items-center my-20 max-w-7xl mx-auto ">
-          <div className="mb-5 md:mb-0">
+          {/* Animated Logo */}
+          <motion.div
+            className="mb-5 md:mb-0"
+            initial={{ opacity: 0, x: -100 }} // Start off-screen on the left
+            whileInView={{ opacity: 1, x: 0 }} // Animate to original position when in view
+            viewport={{ once: true }} // Trigger animation once when in view
+            transition={{ duration: 1 }} // Duration of the animation
+          >
             <Image src={logo} alt="logo" width={250} height={250} />
-          </div>
+          </motion.div>
+
           <div className="space-y-3 px-3 md:px-0">
             <p className="text-4xl text-primary_color font-bold">
               Business Information
@@ -94,7 +104,7 @@ const Page = () => {
               delivering top-notch washing services and have grown to become a
               leading player in the washing industry. With our focus on quality,
               sustainability, and customer satisfaction, we continue to pave the
-              way for excellence in the textile washing.
+              way for excellence in textile washing.
             </p>
             <p className="font-bold text-lg">Production Capacity</p>
             <p className="text-sm font-semibold text-gray-700">
@@ -132,8 +142,6 @@ const Page = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            {/* <CarouselPrevious className="aboslute left-10 md:left-20 px-4 py-2 bg-white rounded shadow-md hover:bg-gray-200" />
-            <CarouselNext className="aboslute right-10 md:right-20 px-4 py-2 bg-white rounded shadow-md hover:bg-gray-200" /> */}
           </Carousel>
         </div>
         {/* content */}

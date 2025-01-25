@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion"; // Importing motion for animations
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { CardContent } from "../ui/card";
@@ -38,14 +39,6 @@ const AboutCarousel = () => {
       src: "/assets/images/aboutUs/image6.jpg",
       alt: "GOTS",
     },
-    // {
-    //   src: "/assets/images/aboutUs/image7.jpg",
-    //   alt: "GOTS",
-    // },
-    // {
-    //   src: "/assets/images/aboutUs/image8.jpg",
-    //   alt: "GOTS",
-    // },
   ];
 
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null);
@@ -69,7 +62,14 @@ const AboutCarousel = () => {
 
   return (
     <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-2 my-10 py-10">
-      <div>
+      {/* Content Section with Animation */}
+      <motion.div
+        className="space-y-5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+      >
         <p className="text-4xl text-primary_color mb-5 mx-3 font-bold">
           JAF Washing Plant Ltd.
         </p>
@@ -97,9 +97,16 @@ const AboutCarousel = () => {
             own E.T.P. facilities.
           </p>
         </div>
-      </div>
-      {/* Carousel */}
-      <div className="w-full relative">
+      </motion.div>
+
+      {/* Carousel Section with Animation */}
+      <motion.div
+        className="w-full relative"
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+      >
         <Carousel
           className="w-full"
           opts={{
@@ -125,10 +132,10 @@ const AboutCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="aboslute left-10 px-4 py-2 bg-white rounded shadow-md hover:bg-gray-200" />
-          <CarouselNext className="aboslute right-10 px-4 py-2 bg-white rounded shadow-md hover:bg-gray-200" />
+          <CarouselPrevious className="absolute left-10 px-4 py-2 bg-white rounded shadow-md hover:bg-gray-200" />
+          <CarouselNext className="absolute right-10 px-4 py-2 bg-white rounded shadow-md hover:bg-gray-200" />
         </Carousel>
-      </div>
+      </motion.div>
     </div>
   );
 };

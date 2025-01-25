@@ -1,5 +1,8 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import wetProcess from "../../../public/assets/images/facilities/Wash-Section2.jpg";
+
 export default function WetProcess() {
   const processes = [
     "Rinse / Garments / Silicon wash",
@@ -15,7 +18,13 @@ export default function WetProcess() {
     <div className="container mx-auto p-6">
       <div className="grid md:grid-cols-2 gap-8 items-start">
         {/* Left side - Image */}
-        <div className="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden">
+        <motion.div
+          className="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden"
+          initial={{ opacity: 0, x: -100 }} // Start from left and transparent
+          whileInView={{ opacity: 1, x: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <Image
             src={wetProcess}
             alt="Wet Process Facility"
@@ -24,10 +33,16 @@ export default function WetProcess() {
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-black/5"></div>
-        </div>
+        </motion.div>
 
         {/* Right side - Process List */}
-        <div className="flex flex-col justify-center h-full">
+        <motion.div
+          className="flex flex-col justify-center h-full"
+          initial={{ opacity: 0, y: 100 }} // Start from below and transparent
+          whileInView={{ opacity: 1, y: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <h2 className="text-3xl font-bold text-green-600 mb-6">
             Wet Process
           </h2>
@@ -56,7 +71,7 @@ export default function WetProcess() {
               </li>
             ))}
           </ul>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

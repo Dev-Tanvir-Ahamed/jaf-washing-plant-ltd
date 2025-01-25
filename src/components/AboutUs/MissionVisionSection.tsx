@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion"; // Import motion for animations
 import { Gem, Layers, Lightbulb } from "lucide-react";
 
 export default function MissionVisionSection() {
@@ -6,7 +8,13 @@ export default function MissionVisionSection() {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
           {/* Mission Section */}
-          <div className="flex flex-col items-start">
+          <motion.div
+            className="flex flex-col items-start"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
+          >
             <div className="w-16 h-16 bg-[#00A651] flex items-center justify-center mb-6">
               <Gem className="w-8 h-8 text-white" />
             </div>
@@ -20,10 +28,16 @@ export default function MissionVisionSection() {
               industry at all times, by recognizing the value our customers
               bring to our business.
             </p>
-          </div>
+          </motion.div>
 
           {/* Vision Section */}
-          <div className="flex flex-col items-start ">
+          <motion.div
+            className="flex flex-col items-start"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
+          >
             <div className="w-16 h-16 bg-[#00A651] flex items-center justify-center mb-6">
               <Lightbulb className="w-8 h-8 text-white" />
             </div>
@@ -37,10 +51,16 @@ export default function MissionVisionSection() {
               co-workers and provide ample opportunities for personal growth and
               development for all.
             </p>
-          </div>
+          </motion.div>
 
           {/* Goal Section */}
-          <div className="flex flex-col items-start">
+          <motion.div
+            className="flex flex-col items-start"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
+          >
             <div className="w-16 h-16 bg-[#00A651] flex items-center justify-center mb-6">
               <Layers className="w-8 h-8 text-white" />
             </div>
@@ -54,7 +74,7 @@ export default function MissionVisionSection() {
               to become the best and most trusted washing plant industry in
               Bangladesh.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

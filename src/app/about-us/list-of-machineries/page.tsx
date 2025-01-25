@@ -1,14 +1,20 @@
+"use client";
 import MachineryGallery from "@/components/AboutUs/MachineryGallery";
 import MachineryList from "@/components/AboutUs/MachineryList";
+import { motion } from "framer-motion";
 
 const ListOfMachinaries = () => {
   return (
     <>
-      <div
-        className="h-[900px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
+      <motion.div
+        className="h-[900px] md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
         style={{
           background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
         }}
+        initial={{ opacity: 0, y: 100 }} // Start from the bottom
+        whileInView={{ opacity: 1, y: 0 }} // Animate to the original position
+        viewport={{ once: true }} // Trigger animation once when in view
+        transition={{ duration: 1 }} // Duration of the animation
       >
         <p className="font-bold text-[40px] text-white space-y-5 mb-5">
           List of Machineries
@@ -34,9 +40,27 @@ const ListOfMachinaries = () => {
             washing industry.
           </p>
         </div>
-      </div>
-      <MachineryList />
-      <MachineryGallery />
+      </motion.div>
+
+      {/* Animated machinery list */}
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <MachineryList />
+      </motion.div>
+
+      {/* Animated machinery gallery */}
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <MachineryGallery />
+      </motion.div>
     </>
   );
 };

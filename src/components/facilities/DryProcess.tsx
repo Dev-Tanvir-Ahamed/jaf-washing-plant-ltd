@@ -1,5 +1,8 @@
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import dryProcess1 from "../../../public/assets/images/facilities/Dry-Process-1.jpg";
+
 export default function DryProcess() {
   const processes = [
     "Whisker (Manual & Laser), Hand Sand Image & Full Body (Manual & Laser)",
@@ -19,7 +22,13 @@ export default function DryProcess() {
       {/* part - 1 */}
       <div className="grid md:grid-cols-2 gap-8 items-start">
         {/* Left side - Process List */}
-        <div className="order-2 md:order-1">
+        <motion.div
+          className="order-2 md:order-1"
+          initial={{ opacity: 0, y: 100 }} // Start below and transparent
+          whileInView={{ opacity: 1, y: 0 }} // Animate to visible position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <h2 className="text-3xl font-bold text-green-600 mb-6">
             Dry Process
           </h2>
@@ -48,10 +57,16 @@ export default function DryProcess() {
               </li>
             ))}
           </ul>
-        </div>
+        </motion.div>
 
         {/* Right side - Image */}
-        <div className="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+        <motion.div
+          className="relative h-[600px] bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2"
+          initial={{ opacity: 0, x: 100 }} // Start from the right and transparent
+          whileInView={{ opacity: 1, x: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <Image
             src={dryProcess1}
             alt="Dry Process Facility"
@@ -60,7 +75,7 @@ export default function DryProcess() {
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-black/5"></div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

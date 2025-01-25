@@ -1,4 +1,6 @@
+"use client";
 import KeyActivities from "@/components/sustainibility/KeyActivities";
+import { motion } from "framer-motion";
 
 const Sustainability = () => {
   return (
@@ -9,10 +11,23 @@ const Sustainability = () => {
           background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
         }}
       >
-        <p className="font-bold text-[40px] text-white space-y-5 mb-5">
+        <motion.p
+          className="font-bold text-[40px] text-white space-y-5 mb-5"
+          initial={{ opacity: 0, y: 100 }} // Start from below and transparent
+          whileInView={{ opacity: 1, y: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           Sustainability
-        </p>
-        <div className="max-w-4xl text-white font-light text-[18px] space-y-3">
+        </motion.p>
+
+        <motion.div
+          className="max-w-4xl text-white font-light text-[18px] space-y-3"
+          initial={{ opacity: 0, y: 100 }} // Start from below and transparent
+          whileInView={{ opacity: 1, y: 0 }} // Animate to original position
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <p className="mb-3">
             JAF Washing Plant Ltd., we are deeply committed to sustainability
             and environmental responsibility. We recognize the importance of
@@ -27,7 +42,7 @@ const Sustainability = () => {
             Effluent Treatment Plant (ETP) ensures the proper treatment and
             disposal of wastewater, meeting stringent environmental standards.
           </p>
-        </div>
+        </motion.div>
       </div>
       <KeyActivities />
     </>
