@@ -28,7 +28,7 @@ export default function Management() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 space-y-16 relative">
       <div>
-        <p className="md:text-[120px] xl:text-[168px] text-gray-100 absolute top-0 left-10 font-bold">
+        <p className="md:text-[120px] xl:text-[155px] text-gray-100 absolute top-0 left-10 font-bold">
           Management
         </p>
       </div>
