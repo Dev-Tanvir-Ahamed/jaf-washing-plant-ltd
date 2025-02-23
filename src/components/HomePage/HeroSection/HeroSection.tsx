@@ -62,7 +62,7 @@ export default function HeroSection() {
           transition={{ type: "spring", stiffness: 50, damping: 10 }}
         >
           <h1 className="text-2xl md:text-4xl font-bold text-violet-600">
-            JAF Washing Plant Ltd.
+            JAF Washing
           </h1>
         </motion.div>
 

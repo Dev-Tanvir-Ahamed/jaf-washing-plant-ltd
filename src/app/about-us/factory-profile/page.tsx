@@ -93,13 +93,13 @@ const Page = () => {
               Business Information
             </p>
             <p className="font-light text-[18px]">
-              Established in January 2013, JAF Washing Plant Ltd. boasts a
-              single, efficient washing unit under the ownership of Mehedi
-              Hasan. Since our inception, we have dedicated ourselves to
-              delivering top-notch washing services and have grown to become a
-              leading player in the washing industry. With our focus on quality,
-              sustainability, and customer satisfaction, we continue to pave the
-              way for excellence in textile washing.
+              Established in January 2013, JAF Washing boasts a single,
+              efficient washing unit under the ownership of Mehedi Hasan. Since
+              our inception, we have dedicated ourselves to delivering top-notch
+              washing services and have grown to become a leading player in the
+              washing industry. With our focus on quality, sustainability, and
+              customer satisfaction, we continue to pave the way for excellence
+              in textile washing.
             </p>
             <p className="font-bold text-lg">Production Capacity</p>
             <p className="text-sm font-semibold text-gray-700">

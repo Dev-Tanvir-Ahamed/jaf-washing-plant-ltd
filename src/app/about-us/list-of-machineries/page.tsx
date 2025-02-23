@@ -21,11 +21,11 @@ const ListOfMachinaries = () => {
         </p>
         <div className="max-w-4xl text-white font-light text-[18px] space-y-3">
           <p className="mb-3">
-            JAF Washing Plant Ltd., we take pride in our state-of-the-art
-            machinery that enables us to deliver top-quality washing services.
-            This page provides you with an insight into the advanced equipment
-            and technologies we employ to meet our client&apos;s diverse needs.
-            With a focus on efficiency, precision, and innovation, our machinery
+            JAF Washing, we take pride in our state-of-the-art machinery that
+            enables us to deliver top-quality washing services. This page
+            provides you with an insight into the advanced equipment and
+            technologies we employ to meet our client&apos;s diverse needs. With
+            a focus on efficiency, precision, and innovation, our machinery
             lineup plays a crucial role in ensuring optimal results and customer
             satisfaction.
           </p>

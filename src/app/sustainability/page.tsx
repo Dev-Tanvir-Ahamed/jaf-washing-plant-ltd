@@ -24,8 +24,8 @@ const Sustainability = () => {
           transition={{ duration: 1 }}
         >
           <p className="mb-3">
-            JAF Washing Plant Ltd., we are deeply committed to sustainability
-            and environmental responsibility. We recognize the importance of
+            JAF Washing, we are deeply committed to sustainability and
+            environmental responsibility. We recognize the importance of
             protecting our planet and minimizing our ecological footprint. With
             this in mind, we have implemented various initiatives to promote
             sustainable practices throughout our operations.

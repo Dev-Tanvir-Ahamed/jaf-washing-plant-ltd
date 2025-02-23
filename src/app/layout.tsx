@@ -16,8 +16,8 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "JAF Washing Plant Ltd.",
-  description: "JAF Washing Plant Ltd.",
+  title: "JAF Washing",
+  description: "JAF Washing",
 };
 
 export default function RootLayout({

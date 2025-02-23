@@ -20,9 +20,9 @@ export default function WhoWeAre() {
       </h2>
 
       <p className="text-gray-600 text-lg leading-relaxed mb-8 mx-auto">
-        JAF Washing Plant Ltd. is a leading modern washing plant in Bangladesh.
-        Established in January 2013, our state-of-the-art facility is located in
-        Savar, Dhaka. With a focus on quality and customer satisfaction, we have
+        JAF Washing is a leading modern washing plant in Bangladesh. Established
+        in January 2013, our state-of-the-art facility is located in Savar,
+        Dhaka. With a focus on quality and customer satisfaction, we have
         rapidly grown since our inception, expanding our operations and catering
         to both local and international clients. With cutting-edge machinery, a
         spacious factory area, and a monthly capacity of 800,000 units, we meet

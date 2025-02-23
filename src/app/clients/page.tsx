@@ -24,8 +24,8 @@ const Clients = () => {
           transition={{ duration: 1 }}
         >
           <p className="mb-3">
-            JAF Washing Plant Ltd., our clients are at the heart of everything
-            we do. We are privileged to partner with a diverse range of esteemed
+            JAF Washing, our clients are at the heart of everything we do. We
+            are privileged to partner with a diverse range of esteemed
             organizations from various industries, both locally and
             internationally. It is their trust and confidence in our services
             that drive us to continuously strive for excellence.
