@@ -104,7 +104,7 @@ export function OurClients() {
 
   return (
     <div className="bg-[#F2F3F5] py-16 h-[400px]">
-      <h2 className="text-center text-3xl font-semibold text-green-600 mb-8">
+      <h2 className="text-center text-3xl font-semibold text-violet-600 mb-8">
         Our Clients
       </h2>
       <Carousel

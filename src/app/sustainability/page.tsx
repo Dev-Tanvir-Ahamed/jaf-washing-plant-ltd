@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 const Sustainability = () => {
   return (
     <>
-      <div
-        className="h-[700px] md:h-[500px] flex justify-center items-center flex-col mb-5 text-center"
-        style={{
-          background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
-        }}
-      >
+      <div className="h-[700px] md:h-[500px] flex justify-center items-center flex-col mb-5 text-center gradient-violet">
         <motion.p
           className="font-bold text-[40px] text-white space-y-5 mb-5"
           initial={{ opacity: 0, y: 100 }} // Start from below and transparent

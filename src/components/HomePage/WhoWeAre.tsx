@@ -15,7 +15,7 @@ export default function WhoWeAre() {
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <h2 className="text-4xl md:text-5xl font-bold text-green-600 mb-8">
+      <h2 className="text-4xl md:text-5xl font-bold text-violet-600 mb-8">
         Who we are?
       </h2>
 

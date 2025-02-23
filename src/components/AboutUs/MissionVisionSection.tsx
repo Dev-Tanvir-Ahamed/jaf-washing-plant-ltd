@@ -15,12 +15,12 @@ export default function MissionVisionSection() {
             viewport={{ once: true }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            <div className="w-16 h-16 bg-[#00A651] flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-primary_color flex items-center justify-center mb-6">
               <Gem className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-[#00A651] text-2xl font-semibold mb-4 relative">
+            <h2 className="text-primary_color text-2xl font-semibold mb-4 relative">
               Our Mission
-              <span className="absolute bottom-0 left-6 transform -translate-x-1/2 -mb-2 w-12 h-0.5 bg-[#00A651]"></span>
+              <span className="absolute bottom-0 left-6 transform -translate-x-1/2 -mb-2 w-12 h-0.5 bg-primary_color"></span>
             </h2>
             <p className="text-gray-600 mt-6 leading-relaxed">
               Our mission is to deliver quality products, uphold the highest
@@ -38,12 +38,12 @@ export default function MissionVisionSection() {
             viewport={{ once: true }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            <div className="w-16 h-16 bg-[#00A651] flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-primary_color flex items-center justify-center mb-6">
               <Lightbulb className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-[#00A651] text-2xl font-semibold mb-4 relative">
+            <h2 className="text-primary_color text-2xl font-semibold mb-4 relative">
               Our Vision
-              <span className="absolute bottom-0 left-6 transform -translate-x-1/2 -mb-2 w-12 h-0.5 bg-[#00A651]"></span>
+              <span className="absolute bottom-0 left-6 transform -translate-x-1/2 -mb-2 w-12 h-0.5 bg-primary_color"></span>
             </h2>
             <p className="text-gray-600 mt-6 leading-relaxed text-left">
               We pledge honesty, fairness, and representation of our supplier
@@ -61,12 +61,12 @@ export default function MissionVisionSection() {
             viewport={{ once: true }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            <div className="w-16 h-16 bg-[#00A651] flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-primary_color flex items-center justify-center mb-6">
               <Layers className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-[#00A651] text-2xl font-semibold mb-4 relative">
+            <h2 className="text-primary_color text-2xl font-semibold mb-4 relative">
               Our Goal
-              <span className="absolute bottom-0 left-6 transform -translate-x-1/2 -mb-2 w-12 h-0.5 bg-[#00A651]"></span>
+              <span className="absolute bottom-0 left-6 transform -translate-x-1/2 -mb-2 w-12 h-0.5 bg-primary_color"></span>
             </h2>
             <p className="text-gray-600 mt-6 leading-relaxed">
               Through integrity, hard work, and adherence to the guiding

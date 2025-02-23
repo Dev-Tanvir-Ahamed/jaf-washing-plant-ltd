@@ -6,7 +6,7 @@ import MissionVisionSection from "@/components/AboutUs/MissionVisionSection";
 const AboutUs = () => {
   return (
     <div>
-      <div className="bg-primary_color h-[200px] flex justify-center items-center mb-5">
+      <div className="h-[200px] flex justify-center items-center mb-5 gradient-violet">
         <p className="font-bold text-4xl text-white">About Us</p>
       </div>
       <AboutCarousel />

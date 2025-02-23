@@ -1,5 +1,6 @@
 import { CertificateCarousoul } from "@/components/HomePage/CertificateCarousoul";
-import HeroSection from "@/components/HomePage/HeroSection";
+import HeroSection from "@/components/HomePage/HeroSection/HeroSection";
+
 import Management from "@/components/HomePage/Management";
 import { OurClients } from "@/components/HomePage/OurClients";
 import Stats from "@/components/HomePage/Stats";

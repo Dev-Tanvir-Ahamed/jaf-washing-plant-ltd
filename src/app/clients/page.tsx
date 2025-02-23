@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 const Clients = () => {
   return (
     <>
-      <div
-        className="h-[1000px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
-        style={{
-          background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
-        }}
-      >
+      <div className="h-[1000px]  md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0 gradient-violet">
         <motion.p
           className="font-bold text-[32px] text-white space-y-5 mb-5"
           initial={{ opacity: 0, y: 100 }} // Start from below and transparent

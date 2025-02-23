@@ -68,7 +68,7 @@ export default function Management() {
                 delay: 0.2, // Delay for content to come in slightly after image
               }}
             >
-              <h2 className="text-4xl font-bold text-green-600">
+              <h2 className="text-4xl font-bold text-primary_color">
                 {profile.name}
               </h2>
               <h3 className="text-xl text-gray-700">{profile.title}</h3>

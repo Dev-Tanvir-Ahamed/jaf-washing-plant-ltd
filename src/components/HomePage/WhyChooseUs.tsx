@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-4 py-16 ">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-green-600 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary_color mb-4">
             Why Choose Us
           </h2>
           <p className="text-gray-600 text-lg">
@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
           {cardData.map((card, index) => (
             <motion.div
               key={card.id}
-              className="bg-white p-8 rounded-lg shadow-lg text-center group hover:bg-green-600 transition-all duration-300"
+              className="bg-white p-8 rounded-lg shadow-lg text-center group hover:bg-violet-600 transition-all duration-300"
               initial={{
                 opacity: 0,
                 y: 50,
@@ -95,11 +95,11 @@ export default function WhyChooseUs() {
               <div className="flex justify-center mb-6">
                 <Image
                   src={card.icon}
-                  className="w-12 h-12 text-green-600 group-hover:text-white"
+                  className="w-12 h-12 text-primary_color group-hover:text-white"
                   alt="img"
                 />
               </div>
-              <h3 className="text-2xl font-semibold text-green-600 mb-4 group-hover:text-white">
+              <h3 className="text-2xl font-semibold text-primary_color mb-4 group-hover:text-white">
                 {card.title}
               </h3>
               <p className="text-gray-600 group-hover:text-white mb-6">

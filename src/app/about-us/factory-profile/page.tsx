@@ -69,12 +69,7 @@ const Page = () => {
 
   return (
     <div className="">
-      <div
-        className="h-[200px]  flex justify-center items-center flex-col mb-5 text-center "
-        style={{
-          background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
-        }}
-      >
+      <div className="h-[200px]  flex justify-center items-center flex-col mb-5 text-center gradient-violet">
         <p className="font-bold text-5xl text-white space-y-5 mb-5">
           Factory Profile
         </p>
@@ -165,7 +160,7 @@ const Page = () => {
           <div className="mt-8 text-center md:text-left pb-10 md:pb-0">
             <Link
               href="https://almadinawashing.com/wp-content/uploads/2024/08/Factory-Profile-of-Al-madina-Washing-Plant.pdf"
-              className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold shadow-md hover:bg-[#0a2759] transition-all ease-in-out"
+              className="px-6 py-3 bg-primary_color text-white rounded-lg font-semibold shadow-md hover:bg-[#0a2759] transition-all ease-in-out"
             >
               📄 Download company profile
             </Link>

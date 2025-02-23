@@ -16,23 +16,15 @@ export function CertificateCarousoul() {
   // Array of images
   const images = [
     {
-      src: "/assets/images/certificate/image1.png",
-      alt: "Higg Index",
-    },
-    {
-      src: "/assets/images/certificate/image2.png",
-      alt: "Social & Labor Convergence",
-    },
-    {
-      src: "/assets/images/certificate/image3.png",
+      src: "/assets/images/certificate/image7.jpeg",
       alt: "Sedex",
     },
     {
-      src: "/assets/images/certificate/image4.png",
+      src: "/assets/images/certificate/images8.jpg",
       alt: "Amfori BSCI",
     },
     {
-      src: "/assets/images/certificate/image5.jpeg",
+      src: "/assets/images/certificate/WhatsApp Image 2025-02-22 at 16.19.47_3b239571.jpg",
       alt: "GOTS",
     },
   ];
@@ -60,7 +52,7 @@ export function CertificateCarousoul() {
 
   return (
     <div className="bg-[#F2F3F5] py-16 h-[400px]">
-      <h2 className="text-center text-3xl font-semibold text-green-600 mb-8">
+      <h2 className="text-center text-3xl font-semibold text-primary_color mb-8">
         Certificates
       </h2>
       <Carousel
@@ -72,10 +64,7 @@ export function CertificateCarousoul() {
       >
         <CarouselContent className="flex gap-4 mb-5">
           {images.map((image, index) => (
-            <CarouselItem
-              key={index}
-              className=" basis-1/2 md:basis-1/3 xl:basis-1/5"
-            >
+            <CarouselItem key={index} className="basis-1/2">
               <div className="p-2">
                 <Card className="shadow-lg">
                   <CardContent className="flex items-center justify-center p-4">

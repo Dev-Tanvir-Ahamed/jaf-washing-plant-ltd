@@ -9,7 +9,7 @@ const ListOfMachinaries = () => {
       <motion.div
         className="h-[900px] md:h-[500px] flex justify-center items-center flex-col mb-5 text-center px-5 md:px-0"
         style={{
-          background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
+          background: "linear-gradient(to right, #7F00FF 0%, #E100FF 100%)",
         }}
         initial={{ opacity: 0, y: 100 }} // Start from the bottom
         whileInView={{ opacity: 1, y: 0 }} // Animate to the original position

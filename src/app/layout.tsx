@@ -3,6 +3,7 @@ import Footer from "@/shared/Footer";
 
 import Navbar from "@/shared/Navbar";
 import ScrollToTop from "@/shared/ScrollOnTop";
+import WhatsAppButton from "@/shared/WhatsappButton";
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import Head from "next/head";
@@ -40,6 +41,7 @@ export default function RootLayout({
         <Navbar />
         {/* <TryNav /> */}
         {children}
+        <WhatsAppButton />
         <ScrollToTop />
         <CTASection />
         <Footer />

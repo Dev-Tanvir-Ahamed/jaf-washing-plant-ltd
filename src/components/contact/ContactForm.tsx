@@ -8,12 +8,14 @@ export default function ContactForm() {
       <div className="grid lg:grid-cols-2 gap-12">
         {/* Left Column */}
         <div className="space-y-8">
-          <h2 className="text-2xl font-semibold text-green-600">HOW TO FIND</h2>
+          <h2 className="text-2xl font-semibold text-primary_color">
+            HOW TO FIND
+          </h2>
 
           <div className="space-y-6">
             {/* Office Address */}
             <div className="flex items-start gap-4">
-              <div className="p-3 bg-green-600 text-white rounded-full">
+              <div className="p-3 bg-primary_color text-white rounded-full">
                 <MapPin className="h-6 w-6" />
               </div>
               <div>
@@ -28,7 +30,7 @@ export default function ContactForm() {
 
             {/* Phone */}
             <div className="flex items-start gap-4">
-              <div className="p-3 bg-green-600 text-white rounded-full">
+              <div className="p-3 bg-primary_color text-white rounded-full">
                 <Phone className="h-6 w-6" />
               </div>
               <div>
@@ -39,7 +41,7 @@ export default function ContactForm() {
 
             {/* Email */}
             <div className="flex items-start gap-4">
-              <div className="p-3 bg-green-600 text-white rounded-full">
+              <div className="p-3 bg-primary_color text-white rounded-full">
                 <Mail className="h-6 w-6" />
               </div>
               <div>
@@ -55,13 +57,13 @@ export default function ContactForm() {
           <div className="flex gap-4 pt-4">
             <a
               href="#"
-              className="bg-green-600 p-3 text-white hover:bg-green-700 transition-colors"
+              className="bg-primary_color p-3 text-white hover:bg-green-700 transition-colors"
             >
               <Facebook className="h-6 w-6" />
             </a>
             <a
               href="#"
-              className="bg-green-600 p-3 text-white hover:bg-green-700 transition-colors"
+              className="bg-primary_color p-3 text-white hover:bg-green-700 transition-colors"
             >
               <Linkedin className="h-6 w-6" />
             </a>
@@ -71,10 +73,10 @@ export default function ContactForm() {
         {/* Right Column - Contact Form */}
         <div className="space-y-6">
           <div className="text-center space-y-2">
-            <h2 className="text-2xl text-green-600">
+            <h2 className="text-2xl text-black">
               Feel free to contact us anytime with any questions that you have.
             </h2>
-            <p className="text-xl text-green-600">
+            <p className="text-xl text-black">
               We are here to help every step of the way!
             </p>
           </div>
@@ -84,34 +86,34 @@ export default function ContactForm() {
               <input
                 type="text"
                 placeholder="First Name *"
-                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
+                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-primary_color focus:outline-none transition-colors"
               />
               <input
                 type="text"
                 placeholder="Last Name"
-                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
+                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-primary_color focus:outline-none transition-colors"
               />
             </div>
             <div className="grid md:grid-cols-2 gap-4">
               <input
                 type="tel"
                 placeholder="Phone"
-                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
+                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-primary_color focus:outline-none transition-colors"
               />
               <input
                 type="email"
                 placeholder="Email *"
-                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
+                className="w-full px-4 py-3 rounded border border-gray-200 focus:border-primary_color focus:outline-none transition-colors"
               />
             </div>
             <textarea
               placeholder="Your message *"
               rows={8}
-              className="w-full px-4 py-3 rounded border border-gray-200 focus:border-green-600 focus:outline-none transition-colors resize-none"
+              className="w-full px-4 py-3 rounded border border-gray-200 focus:border-primary_color focus:outline-none transition-colors resize-none"
             />
             <button
               type="submit"
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded transition-colors font-semibold"
+              className="bg-primary_color hover:bg-green-700 text-white px-8 py-4 rounded transition-colors font-semibold"
             >
               SEND MESSAGE
             </button>

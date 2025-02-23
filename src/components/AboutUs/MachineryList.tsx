@@ -29,7 +29,7 @@ const MachineryList = () => {
         {machinery.map((machine) => (
           <div
             key={machine.id}
-            className="relative p-4 rounded-sm flex items-center gap-3 overflow-hidden cursor-pointer group hover:bg-green-600 transition duration-200"
+            className="relative p-4 rounded-sm flex items-center gap-3 overflow-hidden cursor-pointer group hover:bg-primary_color transition duration-200"
           >
             {/* Content */}
             <div className="flex items-center w-full">

@@ -25,7 +25,7 @@ const CertificationList = () => {
         {certifications.map((cert) => (
           <motion.div
             key={cert.id}
-            className="relative p-4 rounded-sm flex items-center gap-3 bg-gray-50 overflow-hidden cursor-pointer group hover:bg-green-600 transition duration-200"
+            className="relative p-4 rounded-sm flex items-center gap-3 bg-gray-50 overflow-hidden cursor-pointer group hover:bg-primary_color transition duration-200"
             initial={{ opacity: 0, y: 50 }} // Start from below with reduced opacity
             whileInView={{ opacity: 1, y: 0 }} // Animate to normal opacity and position
             viewport={{ once: true }} // Only trigger animation once when it comes into view

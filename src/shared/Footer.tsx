@@ -2,7 +2,7 @@ import { Facebook, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="bg-[#0B4619] text-white">
+    <footer className="bg-violet-600 text-white">
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Us Section */}
@@ -102,7 +102,7 @@ export default function Footer() {
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <div className="space-y-3">
               <div className="flex items-start gap-2">
-                <div className="w-5 h-5 mt-1 text-green-400">
+                <div className="w-5 h-5 mt-1 text-violet-400">
                   <MapPin size={20} />
                 </div>
                 <p className="text-gray-200">
@@ -110,7 +110,7 @@ export default function Footer() {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-5 h-5 text-green-400">
+                <div className="w-5 h-5 text-violet-400">
                   <Phone size={20} />
                 </div>
                 <a
@@ -121,7 +121,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-5 h-5 text-primary_color">
+                <div className="w-5 h-5 text-violet-400">
                   <Mail size={20} />
                 </div>
                 <a

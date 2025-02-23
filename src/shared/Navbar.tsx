@@ -69,7 +69,7 @@ export default function Navbar() {
                       className={`flex items-center px-3 py-2 text-sm font-medium transition duration-300 ${
                         pathname === item.href
                           ? "text-primary_color"
-                          : "text-gray-700 hover:text-green-600"
+                          : "text-gray-700 hover:text-primary_color"
                       }`}
                     >
                       {item.name}
@@ -100,7 +100,7 @@ export default function Navbar() {
                     className={`px-3 py-2 text-sm font-medium transition duration-300 ${
                       pathname === item.href
                         ? "text-primary_color"
-                        : "text-gray-700 hover:text-green-600"
+                        : "text-gray-700 hover:text-primary_color"
                     }`}
                   >
                     {item.name}
