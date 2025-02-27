@@ -5,48 +5,53 @@ import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const galleryImage = [
-  {
-    src: "/assets/images/gallery/1.jpg",
-    alt: "Higg Index",
-  },
-  {
-    src: "/assets/images/gallery/2.jpg",
-    alt: "Sedex",
-  },
-  {
-    src: "/assets/images/gallery/3.jpg",
-    alt: "Amfori BSCI",
-  },
-  {
-    src: "/assets/images/gallery/4.jpg",
-    alt: "GOTS",
-  },
-  {
-    src: "/assets/images/gallery/5.jpg",
-    alt: "GOTS",
-  },
-  {
-    src: "/assets/images/gallery/6.jpg",
-    alt: "GOTS",
-  },
-  {
-    src: "/assets/images/gallery/7.jpg",
-    alt: "GOTS",
-  },
-  {
-    src: "/assets/images/gallery/8.jpg",
-    alt: "GOTS",
-  },
-  {
-    src: "/assets/images/gallery/9.jpg",
-    alt: "GOTS",
-  },
-  {
-    src: "/assets/images/gallery/10.jpg",
-    alt: "GOTS",
-  },
-];
+// const galleryImage = [
+//   {
+//     src: "/assets/images/gallery/1.jpg",
+//     alt: "Higg Index",
+//   },
+//   {
+//     src: "/assets/images/gallery/2.jpg",
+//     alt: "Sedex",
+//   },
+//   {
+//     src: "/assets/images/gallery/3.jpg",
+//     alt: "Amfori BSCI",
+//   },
+//   {
+//     src: "/assets/images/gallery/4.jpg",
+//     alt: "GOTS",
+//   },
+//   {
+//     src: "/assets/images/gallery/5.jpg",
+//     alt: "GOTS",
+//   },
+//   {
+//     src: "/assets/images/gallery/6.jpg",
+//     alt: "GOTS",
+//   },
+//   {
+//     src: "/assets/images/gallery/7.jpg",
+//     alt: "GOTS",
+//   },
+//   {
+//     src: "/assets/images/gallery/8.jpg",
+//     alt: "GOTS",
+//   },
+//   {
+//     src: "/assets/images/gallery/9.jpg",
+//     alt: "GOTS",
+//   },
+//   {
+//     src: "/assets/images/gallery/10.jpg",
+//     alt: "GOTS",
+//   },
+// ];
+
+const galleryImage = Array.from({ length: 32 }, (_, index) => ({
+  src: `/assets/images/gallery/${index + 1}.jpg`,
+  alt: `Gallery Image ${index + 1}`,
+}));
 
 export default function ProductGallery() {
   const [index, setIndex] = useState(-1);

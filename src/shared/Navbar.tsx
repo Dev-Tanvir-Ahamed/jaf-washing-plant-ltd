@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import logo from "../../public/assets/images/logo-removebg-preview.png";
+import logo from "../../public/assets/images/logo.jpg";
 
 const navItems = [
   { name: "HOME", href: "/" },
@@ -50,12 +50,14 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
           {/* Logo Section */}
           <div className="flex-shrink-0">
-            <Image
-              src={logo || "/placeholder.svg"}
-              width={50}
-              height={50}
-              alt="logo"
-            />
+            <Link href="/">
+              <Image
+                src={logo || "/placeholder.svg"}
+                width={50}
+                height={50}
+                alt="logo"
+              />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

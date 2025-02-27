@@ -19,14 +19,6 @@ export default function HeroSection() {
     <main className="min-h-screen relative">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        {/* <video
-          src="/assets/video/denim.mp4"
-          className="absolute inset-0 w-full h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-        /> */}
         <Image
           src={heroImage}
           alt="hero-image"
@@ -88,7 +80,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Experience the cutting-edge excellence of J A F Washing Plant Ltd.,
+          Experience the cutting-edge excellence of JAF Washing,
           Bangladesh&apos;s premier modern washing plant, delivering superior
           quality with state-of-the-art machinery
         </motion.p>
@@ -139,7 +131,7 @@ export default function HeroSection() {
             SENT WhatsApp
           </button>
           <Link
-            href="tel:+8801754408026"
+            href="tel:+8801718666662"
             className="bg-gray-100 hover:bg-gray-200 text-black px-6 py-3 rounded-md font-semibold text-md transition-all duration-200 text-center shadow-sm transform hover:translate-y-[-5px]"
           >
             PLEASE CALL US

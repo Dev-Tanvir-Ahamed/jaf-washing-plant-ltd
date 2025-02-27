@@ -24,11 +24,11 @@ const Compliance = () => {
           transition={{ duration: 1 }}
         >
           <p className="mb-3">
-            JAF Washing (JAFWPL), we take great pride in upholding high
-            standards of compliance and achieving various certifications that
-            validate our commitment to social and environmental responsibility.
-            These certifications are a testament to our dedication to
-            sustainable and ethical practices throughout our operations.
+            JAF Washing, we take great pride in upholding high standards of
+            compliance and achieving various certifications that validate our
+            commitment to social and environmental responsibility. These
+            certifications are a testament to our dedication to sustainable and
+            ethical practices throughout our operations.
           </p>
         </motion.div>
       </div>

@@ -8,7 +8,6 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
-
 const rubik = Rubik({
   variable: "--font-rubik",
   subsets: ["latin"],

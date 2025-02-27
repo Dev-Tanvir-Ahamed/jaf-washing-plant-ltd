@@ -76,8 +76,8 @@ const AboutCarousel = () => {
         <div className="text-[#34343c] space-y-3 text-[20px] font-light mx-3">
           <p>
             JAF Washing is one of the most modern washing plants in Bangladesh,
-            established in January 2013. It is situated at 185, Singair Road,
-            Hemayetpur, Savar, Dhaka. Mehedi Hasan is our honorable Managing
+            established in January 2013. It is situated at Road No: 21,
+            Shyampur, Dhaka-1204. Mehedi Hasan is our honorable Managing
             Director, and Anwara Begum is our Director.
           </p>
           <p>
@@ -101,22 +101,25 @@ const AboutCarousel = () => {
 
       {/* Carousel Section with Animation */}
       <motion.div
-        className="w-full relative"
+        className="w-full relative flex items-center justify-center"
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
         <Carousel
-          className="w-full"
+          className="w-full flex items-center"
           opts={{
-            align: "start",
+            align: "center",
           }}
           setApi={setCarouselApi}
         >
-          <CarouselContent>
+          <CarouselContent className="flex items-center">
             {images.map((item, index) => (
-              <CarouselItem key={index}>
+              <CarouselItem
+                key={index}
+                className="flex items-center justify-center"
+              >
                 <div className="p-1">
                   <CardContent className="flex items-center justify-center p-6">
                     <Image

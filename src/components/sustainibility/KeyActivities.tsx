@@ -26,12 +26,12 @@ const KeyActivities = () => {
             outside our organization.
           </p>
           <p>
-            Environment is always at the priority list of Al-Madina Washing
-            Plant Ltd. Our firm commitment in conserving the environment
-            reflected in our state-of-art production units, washing plants with
-            modern ETP plants. Efforts are made to control Waste and use of
-            natural resources as Water, Gas, and Energy. We also emphasize on
-            disposal and proper re-utilization of Industrial Wastes.
+            Environment is always at the priority list of JAF Washing Our firm
+            commitment in conserving the environment reflected in our
+            state-of-art production units, washing plants with modern ETP
+            plants. Efforts are made to control Waste and use of natural
+            resources as Water, Gas, and Energy. We also emphasize on disposal
+            and proper re-utilization of Industrial Wastes.
           </p>
         </motion.div>
 

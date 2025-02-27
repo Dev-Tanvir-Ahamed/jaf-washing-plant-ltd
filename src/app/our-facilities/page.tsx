@@ -7,12 +7,7 @@ const Faculties = () => {
   return (
     <div>
       {/* Animated Header Section */}
-      <div
-        className="h-[600px] md:h-[400px] flex justify-center items-center flex-col mb-5 text-center"
-        style={{
-          background: "linear-gradient(to right, #146d2b 0%, #009426 100%)",
-        }}
-      >
+      <div className="h-[600px] md:h-[400px] flex justify-center items-center flex-col mb-5 text-center gradient-violet">
         <motion.p
           className="font-bold text-5xl text-white space-y-5 mb-5"
           initial={{ opacity: 0, y: 100 }} // Starts from the bottom
@@ -30,11 +25,10 @@ const Faculties = () => {
           transition={{ duration: 1 }} // Duration of the animation
         >
           <p className="mb-3">
-            At J A F Washing Plant Ltd., we house state-of-the-art washing
-            facilities equipped with advanced techniques to cater to a wide
-            range of garment finishing requirements. Our expertise extends to
-            both dry and wet processes, ensuring exceptional results for our
-            clients.
+            At JAF Washing, we house state-of-the-art washing facilities
+            equipped with advanced techniques to cater to a wide range of
+            garment finishing requirements. Our expertise extends to both dry
+            and wet processes, ensuring exceptional results for our clients.
           </p>
           <p>
             With our comprehensive range of washing facilities and expertise in

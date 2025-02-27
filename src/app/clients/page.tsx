@@ -41,9 +41,9 @@ const Clients = () => {
           </p>
           <p>
             To all our valued clients, we extend our heartfelt gratitude for
-            choosing Al-Madina Washing Plant Ltd. as your trusted partner. Your
-            success is our success, and we remain dedicated to delivering
-            excellence and driving your business forward.
+            choosing JAF Washing as your trusted partner. Your success is our
+            success, and we remain dedicated to delivering excellence and
+            driving your business forward.
           </p>
         </motion.div>
       </div>

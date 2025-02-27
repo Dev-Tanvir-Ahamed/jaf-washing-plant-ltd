@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import dryProcess1 from "../../../public/assets/images/facilities/Dry-Process-1.jpg";
+import dryProcess1 from "../../../public/assets/images/facilities/dryProcess.jpg";
 
 export default function DryProcess() {
   const processes = [
@@ -29,13 +29,13 @@ export default function DryProcess() {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <h2 className="text-3xl font-bold text-green-600 mb-6">
+          <h2 className="text-3xl font-bold text-primary_color mb-6">
             Dry Process
           </h2>
           <ul className="space-y-4">
             {processes.map((process, index) => (
               <li key={index} className="flex items-start space-x-2">
-                <span className="text-green-600 mt-1">
+                <span className="text-primary_color mt-1">
                   <svg
                     className="w-4 h-4"
                     fill="none"

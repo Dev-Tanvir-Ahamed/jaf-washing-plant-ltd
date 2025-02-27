@@ -106,7 +106,7 @@ export default function Footer() {
                   <MapPin size={20} />
                 </div>
                 <p className="text-gray-200">
-                  Holding No: 8/2/A, Road No: 21, Shyampur, Dhaka-1204
+                  Holding No: 2/8/A, Road No: 21, Shyampur, Dhaka-1204
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -114,10 +114,10 @@ export default function Footer() {
                   <Phone size={20} />
                 </div>
                 <a
-                  href="tel:+8801999027882"
+                  href="tel:+8801718666662"
                   className="text-gray-200 hover:text-white transition-colors"
                 >
-                  +8801999027882
+                  +8801718666662
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -125,10 +125,10 @@ export default function Footer() {
                   <Mail size={20} />
                 </div>
                 <a
-                  href="mailto:info@almadinawashing.com"
+                  href="mailto:jafwashing@gmail.com"
                   className="text-gray-200 hover:text-white transition-colors"
                 >
-                  info@almadinawashing.com
+                  jafwashing@gmail.com
                 </a>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Footer() {
         {/* Copyright Section */}
         <div className="mt-16 pt-8 border-t border-gray-400">
           <p className="text-center text-gray-300">
-            © 2024 Al Madina Washing Plant Ltd. All Rights Reserved.
+            © 2024 JAF Washing All Rights Reserved.
           </p>
         </div>
       </div>

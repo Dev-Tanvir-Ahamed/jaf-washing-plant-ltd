@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import anwaraBegum from "../../../public/assets/images/management/ANWARA-BEGUM.jpg";
 import mehediHasan from "../../../public/assets/images/management/mehedi-hasan.jpg";
 
 export default function Management() {
@@ -14,16 +13,6 @@ export default function Management() {
         "At JAF Washing, our commitment to excellence is unwavering. We strive to provide you with the highest quality services, backed by our dedicated team, state-of-the-art machinery, and advanced techniques. With a relentless focus on customer satisfaction, we aim to exceed your expectations and build lasting partnerships.",
         "Our success is built on the foundation of a skilled and proficient workforce, who are driven by their passion for delivering impeccable results. We invest in their growth and well-being, ensuring that they possess the knowledge and expertise to meet your unique requirements.",
         "As an organization, we are continuously exploring new avenues for innovation and improvement. By partnering with us, you gain access to our ongoing pursuit of excellence",
-      ],
-    },
-    {
-      name: "ANWARA BEGUM",
-      title: "DIRECTOR, JAF Washing",
-      image: anwaraBegum,
-      description: [
-        "At JAF Washing, our commitment to excellence and customer satisfaction is paramount. With a relentless focus on innovation and quality, we strive to deliver exceptional results that exceed your expectations. Our team of skilled professionals works tirelessly to ensure that every project is executed with precision and attention to detail.",
-        "As the Director, I am personally invested in fostering a culture of collaboration, integrity, and continuous improvement. Together with our talented workforce, we are dedicated to providing you with outstanding services and building long-term partnerships based on trust and mutual success.",
-        "I extend my deepest gratitude to our valued clients and partners for their continued support and trust in our capabilities. It is through your unwavering confidence that we are motivated to push boundaries and set new industry standards.",
       ],
     },
   ];

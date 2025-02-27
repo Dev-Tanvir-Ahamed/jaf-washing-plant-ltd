@@ -5,18 +5,18 @@ import { ChevronRight } from "lucide-react";
 
 const CertificationList = () => {
   const certifications = [
-    { id: "01", text: "JAFWPL is Global Organic Textile (GOTS) certified." },
-    { id: "02", text: "JAFWPL is Organic Content Standard (OCS) certified" },
-    { id: "03", text: "JAFWPL is Recycled Claim Standard (RCS) certified" },
-    { id: "04", text: "JAFWPL is INDITEX (RTM, GTW) nominated supplier." },
-    { id: "05", text: "JAFWPL is TESCO nominated supplier." },
-    { id: "06", text: "JAFWPL is SEDEX certified." },
-    { id: "07", text: "JAFWPL is AMFORI BSCI certified." },
-    { id: "08", text: "JAFWPL is LOBLAWS nominated supplier." },
-    { id: "09", text: "JAFWPL is Global Recycled Standard (GRS) certified" },
-    { id: "10", text: "JAFWPL is SLCP verified" },
-    { id: "11", text: "JAFWPL is Higg Index certified" },
-    { id: "12", text: "JAFWPL is Amfori BSCI certified" },
+    { id: "01", text: "JAF is Global Organic Textile (GOTS) certified." },
+    { id: "02", text: "JAF is Organic Content Standard (OCS) certified" },
+    { id: "03", text: "JAF is Recycled Claim Standard (RCS) certified" },
+    { id: "04", text: "JAF is INDITEX (RTM, GTW) nominated supplier." },
+    { id: "05", text: "JAF is TESCO nominated supplier." },
+    { id: "06", text: "JAF is SEDEX certified." },
+    { id: "07", text: "JAF is AMFORI BSCI certified." },
+    { id: "08", text: "JAF is LOBLAWS nominated supplier." },
+    { id: "09", text: "JAF is Global Recycled Standard (GRS) certified" },
+    { id: "10", text: "JAF is SLCP verified" },
+    { id: "11", text: "JAF is Higg Index certified" },
+    { id: "12", text: "JAF is Amfori BSCI certified" },
   ];
 
   return (
