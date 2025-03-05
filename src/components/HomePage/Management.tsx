@@ -1,14 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import mehediHasan from "../../../public/assets/images/management/mehedi-hasan.jpg";
+import johirulIslam from "../../../public/assets/images/management/johirulIslam.jpg";
 
 export default function Management() {
   const profiles = [
     {
       name: "MD. SIR JOHIRUL ISLAM BABU",
       title: "MANAGING DIRECTOR, JAF Washing",
-      image: mehediHasan,
+      image: johirulIslam,
       description: [
         "At JAF Washing, our commitment to excellence is unwavering. We strive to provide you with the highest quality services, backed by our dedicated team, state-of-the-art machinery, and advanced techniques. With a relentless focus on customer satisfaction, we aim to exceed your expectations and build lasting partnerships.",
         "Our success is built on the foundation of a skilled and proficient workforce, who are driven by their passion for delivering impeccable results. We invest in their growth and well-being, ensuring that they possess the knowledge and expertise to meet your unique requirements.",
