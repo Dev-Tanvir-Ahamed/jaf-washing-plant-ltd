@@ -76,23 +76,23 @@ const AboutCarousel = () => {
         <div className="text-[#34343c] space-y-3 text-[20px] font-light mx-3">
           <p>
             JAF Washing is one of the most modern washing plants in Bangladesh,
-            established in January 2013. It is situated at Road No: 21,
-            Shyampur, Dhaka-1204. Mehedi Hasan is our honorable Managing
-            Director, and Anwara Begum is our Director.
+            established in January 1998. It is situated at Road No: 21,
+            Shyampur, Dhaka-1204. MD. Johirul Islam Babu is our honorable
+            Managing Director.
           </p>
           <p>
-            Since we started our journey in 2013, we have been among the
+            Since we started our journey in 1998, we have been among the
             fastest-growing business conglomerates in Europe and the USA.
           </p>
           <p>
             This washing plant is set up with state-of-the-art machinery not
             only to cater to our internal requirements but also to meet the
             needs of outside customers. Additionally, our plant has undergone a
-            large-scale expansion. The factory space covers 21,329.18 square
-            feet, including both the wash and dry process areas. The washing
-            plant has a monthly capacity of 800,000 units for denim and twill.
-            We employ 350 individuals, and our yearly turnover is 3 million USD.
-            Every year, we export 70% of our products to Europe and 30% to other
+            large-scale expansion. The factory space covers 16000 square feet,
+            including both the wash and dry process areas. The washing plant has
+            a monthly capacity of 20,00,000 units for denim and twill. We employ
+            120 individuals, and our yearly turnover is 3 million USD. Every
+            year, we export 70% of our products to Europe and 30% to other
             countries. Our peak season is from March to August, and we have our
             own E.T.P. facilities.
           </p>

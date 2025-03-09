@@ -10,7 +10,7 @@ export default function Footer() {
             <h2 className="text-2xl font-semibold mb-4">About Us</h2>
             <p className="text-gray-200 mb-6">
               JAF Washing is one of the most modern washing plant in Bangladesh,
-              established in January, 2013
+              established in January, 1998
             </p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-gray-300 transition-colors">
@@ -138,7 +138,7 @@ export default function Footer() {
         {/* Copyright Section */}
         <div className="mt-16 pt-8 border-t border-gray-400">
           <p className="text-center text-gray-300">
-            © 2024 JAF Washing All Rights Reserved.
+            © {new Date().getFullYear()} JAF Washing All Rights Reserved.
           </p>
         </div>
       </div>

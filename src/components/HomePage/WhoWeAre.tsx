@@ -21,15 +21,15 @@ export default function WhoWeAre() {
 
       <p className="text-gray-600 text-lg leading-relaxed mb-8 mx-auto">
         JAF Washing is a leading modern washing plant in Bangladesh. Established
-        in January 2013, our state-of-the-art facility is located in Shyampur,
+        in January 1998, our state-of-the-art facility is located in Shyampur,
         Dhaka. With a focus on quality and customer satisfaction, we have
         rapidly grown since our inception, expanding our operations and catering
         to both local and international clients. With cutting-edge machinery, a
-        spacious factory area, and a monthly capacity of 800,000 units, we meet
-        the demands of the denim and twill industry. Committed to excellence, we
-        export 70% of our products to Europe and 30% to other countries. Our
-        peak season runs from March to August, and we proudly own our own E.T.P.
-        facilities.
+        spacious factory area, and a monthly capacity of 20,00,000 units, we
+        meet the demands of the denim and twill industry. Committed to
+        excellence, we export 70% of our products to Europe and 30% to other
+        countries. Our peak season runs from March to August, and we proudly own
+        our own E.T.P. facilities.
       </p>
 
       <Link

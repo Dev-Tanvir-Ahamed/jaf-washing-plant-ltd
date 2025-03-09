@@ -4,13 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import heroImage from "../../../../public/assets/images/banner.avif";
-import logo from "../../../../public/assets/images/logo.jpg";
 import BookMeeting from "./BookMeetingModal";
 import BookMeetingInquery from "./SendInquiery";
 export default function HeroSection() {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenInquery, setIsOpenInquery] = useState(false);
-  const phoneNumber = "8801754408026"; // Replace with your client's phone number
+  const phoneNumber = "8801718666662"; // Replace with your client's phone number
 
   const openWhatsApp = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");
@@ -30,22 +29,6 @@ export default function HeroSection() {
 
       {/* Content Overlay */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 py-20">
-        {/* Logo */}
-        <motion.div
-          className="mb-6"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-        >
-          <Image
-            src={logo}
-            alt="JAF Logo"
-            width={120}
-            height={120}
-            className="mx-auto"
-          />
-        </motion.div>
-
         {/* Company Name */}
         <motion.div
           className="bg-white rounded-full px-8 py-3 mb-8"

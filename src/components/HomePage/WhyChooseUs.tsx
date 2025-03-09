@@ -21,14 +21,14 @@ const cardData = [
     icon: production,
     title: "Extensive Capacity and Timely Delivery",
     description:
-      "With our expanded large-scale plant, extensive factory space, and a monthly capacity of 800,000 units for denim and twill, we are well-equipped to handle your production demands with precision and efficiency.",
+      "With our expanded large-scale plant, extensive factory space, and a monthly capacity of 20,00,000 units for denim and twill, we are well-equipped to handle your production demands with precision and efficiency.",
   },
   {
     id: 3,
     icon: saveTheWorld,
     title: "Quality Workforce and Industry Expertise",
     description:
-      "We take pride in our dedicated workforce of 350 employees, who bring their skills and expertise to every project. Our team comprises industry professionals who are well-versed in the nuances of textile washing.",
+      "We take pride in our dedicated workforce of 120 employees, who bring their skills and expertise to every project. Our team comprises industry professionals who are well-versed in the nuances of textile washing.",
   },
   {
     id: 4,
