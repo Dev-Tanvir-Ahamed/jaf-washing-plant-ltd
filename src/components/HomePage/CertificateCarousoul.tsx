@@ -16,15 +16,15 @@ export function CertificateCarousoul() {
   // Array of images
   const images = [
     {
-      src: "/assets/images/certificate/image7.jpeg",
+      src: "/assets/images/certificate/image1.jpeg",
       alt: "Sedex",
     },
     {
-      src: "/assets/images/certificate/images8.jpg",
+      src: "/assets/images/certificate/image2.jpg",
       alt: "Amfori BSCI",
     },
     {
-      src: "/assets/images/certificate/WhatsApp Image 2025-02-22 at 16.19.47_3b239571.jpg",
+      src: "/assets/images/certificate/image3.jpg",
       alt: "GOTS",
     },
   ];
