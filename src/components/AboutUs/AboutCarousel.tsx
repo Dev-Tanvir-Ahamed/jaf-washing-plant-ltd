@@ -77,7 +77,7 @@ const AboutCarousel = () => {
           <p>
             JAF Washing is one of the most modern washing plants in Bangladesh,
             established in January 1998. It is situated at Road No: 21,
-            Shyampur, Dhaka-1204. MD. Johirul Islam Babu is our honorable
+            Shyampur, Dhaka-1204. MD. Zohirul Islam Babu is our honorable
             Managing Director.
           </p>
           <p>

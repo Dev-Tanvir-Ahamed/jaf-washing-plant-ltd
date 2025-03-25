@@ -94,7 +94,7 @@ const Page = () => {
             </p>
             <p className="font-light text-[18px]">
               Established in January 1998, JAF Washing boasts a single,
-              efficient washing unit under the ownership of MD. Johirul Islam
+              efficient washing unit under the ownership of MD. Zohirul Islam
               Babu. Since our inception, we have dedicated ourselves to
               delivering top-notch washing services and have grown to become a
               leading player in the washing industry. With our focus on quality,

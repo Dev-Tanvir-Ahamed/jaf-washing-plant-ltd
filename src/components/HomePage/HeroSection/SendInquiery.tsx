@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
-
 interface BookMeetingProps {
   isOpen: boolean;
   onClose: () => void;
@@ -36,8 +36,24 @@ export default function BookMeetingInquery({
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form Submitted", formData);
-    onClose(); // Close modal after submission
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        formData,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result.text);
+          alert("Thank you for booking a meeting!");
+          onClose();
+        },
+        (error) => {
+          console.error("Failed to send email:", error);
+          alert("Failed to book meeting. Please try again later.");
+        }
+      );
   };
 
   return (

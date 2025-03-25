@@ -6,7 +6,7 @@ import johirulIslam from "../../../public/assets/images/management/johirulIslam.
 export default function Management() {
   const profiles = [
     {
-      name: "MD. JOHIRUL ISLAM BABU",
+      name: "MD. ZOHIRUL ISLAM BABU",
       title: "MANAGING DIRECTOR, JAF Washing",
       image: johirulIslam,
       description: [
